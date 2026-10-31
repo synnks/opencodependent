@@ -3,12 +3,19 @@
     "target": "ESNext",
     "module": "Preserve",
     "moduleResolution": "Bundler",
+    "types": ["bun"],
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
     "noEmit": true,
     "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true
+    "noUnusedParameters": true,
+    "noUncheckedIndexedAccess": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowUnreachableCode": false
   },
   "include": ["src/**/*.ts", "test/**/*.ts"]
 }
