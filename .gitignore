@@ -1,0 +1,25 @@
+node_modules/
+dist/
+coverage/
+
+### JetBrains IDEs ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### VS Code ###
+.vscode/
+
+### Coding Agents ###
+.claude/
+.cursor/
+.opencode/
+opencode.json
+opencode.jsonc
+CLAUDE.md
+.cursorrules
+AGENTS.local.md
+
+### Mac OS ###
+.DS_Store
